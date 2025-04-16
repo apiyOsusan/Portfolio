@@ -3,7 +3,7 @@
 This is my personal portfolio website built with pure HTML and CSS. It showcases who I am, my skills, data science projects, resume, and how to get in touch with me.
 
 ## Live Demo
-[Visit Portfolio Website](https://your-portfolio-link.com)
+[Visit Portfolio Website](https://github.com/apiyOsusan/Portfolio.git)
 
 ## Features
 - Clean, responsive design
@@ -23,7 +23,7 @@ To view or edit this project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/apiyOsusan/Portfolio.git
 
 cd portfolio
 /portfolio
