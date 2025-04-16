@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apiyo Susan Kirimba Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script>
+  function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+  }
+</script>
+
+<body>
+
+  <header>
+    <div class="hero-container">
+      <nav class="navbar">
+        <div class="logo">
+          <span class="fancy-a">apiy</span><span class="fancy-o">O</span>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">My Projects</a></li>
+          <li><a href="#resume">My Resume</a></li>
+          <li><a href="#contact" class="contact-btn">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="fade-in">Hello, My Name Is</h1>
+      <h2 class="slide-in">Apiyo Susan Kirimba</h2>
+      <p class="fade-in-delay">I'm a Data Scientist turning data into decisions.</p>
+      <a href="#about" class="btn pulse">Know More</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <!-- Profile Picture -->
+      <img src="Passport.jpeg" alt="Apiyo Susan Kirimba" />
+  
+      <!-- About Me Text -->
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h3>Data Enthusiast | Analyst | Problem Solver</h3>
+        <p>
+          I'm Apiyo Susan Kirimba, a passionate and detail-oriented data enthusiast with a strong interest in uncovering insights through data. My journey into data science is driven by curiosity and a desire to turn complex information into actionable solutions. I enjoy solving real-world problems using analytical thinking, statistical knowledge, and a growing set of technical skills. I'm committed to continuous learning and excited about the opportunities data science offers to make a meaningful impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<section id="skills" class="skills-section">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>Python</h4>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>SQL</h4>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Excel</h4>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h4>Data Visualization</h4>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <a href="https://github.com/apiyOsusan/E-Commerce.git" target="_blank">View Project</a>
+          <h4>E-commerce Sales Data Analysis</h4>
+          <p>
+            A solo project where I analyzed e-commerce transaction data using MySQL and Python (Jupyter). I explored trends, customer behaviors, and generated business insights to help optimize discount strategies and improve customer engagement.
+          </p>
+        </div>
+        <div class="project">
+          <a href="https://github.com/apiyOsusan/Netflix_stock_prediction.git" target="_blank">View Project</a>
+          <h4>Netflix Stock Prediction</h4>
+          <p>
+            A collaborative group project focused on predicting Netflix stock prices using LSTM and XGBoost models. The project involved extensive data preprocessing, feature engineering, model building, and evaluation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2>My Resume</h2>
+      <p>You can view or download my resume for more detailed information about my background, education, and experience.</p>
+      <a href="assests/Proffesional CV Resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to collaborate, have any questions, or want to work together, feel free to reach out!</p>
+      <ul>
+        <li><strong>Email:</strong> apiyosusan62@gmail.com</li>
+        <li><strong>Phone:</strong> 0701086625 / 0719451654</li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/apiyo-susan-kirimba" target="_blank">Visit My Profile</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/apiyOsusan" target="_blank">Visit My GitHub</a></li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
