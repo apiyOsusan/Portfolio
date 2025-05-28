@@ -13,5 +13,5 @@ function downloadCV() {
     // Alert showing the action
     alert('Clicked on Download CV!');
     // You can also trigger a file download (if needed) or provide a fallback.
-    window.location.href = 'assets/Professional-CV-Resume.pdf';  // Assuming this is the path to your CV file
+    window.location.href = 'assets/Professional CV Resume.pdf'; 
 }
