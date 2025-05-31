@@ -7,11 +7,3 @@ function knowMore() {
     // Optionally, show an alert (you can remove this if it's unnecessary)
     alert('Clicked on Know More!');
 }
-
-// Function to handle "Download CV" button
-function downloadCV() {
-    // Alert showing the action
-    alert('Clicked on Download CV!');
-    // You can also trigger a file download (if needed) or provide a fallback.
-    window.location.href = 'assets/Professional CV Resume.pdf'; 
-}
